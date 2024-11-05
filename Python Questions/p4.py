@@ -1,3 +1,7 @@
+'''
+Write a python function to perform selection sort on a given string.
+'''
+
 s = input("Enter The string: ")
 ls = list(s)
 
