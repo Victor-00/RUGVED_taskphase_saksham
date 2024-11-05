@@ -1,3 +1,9 @@
+'''
+Create a function that checks whether given string is an anagram or
+not?
+'''
+
+
 def rev(s):
     ls = s[::-1]
     return ls
