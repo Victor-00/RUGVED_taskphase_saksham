@@ -1,3 +1,8 @@
+'''
+Write a python program to check if given number is a hill number.
+'''
+
+
 num = input("Enter a number: ")
 stnum = str(num)
 largest = stnum[0]
