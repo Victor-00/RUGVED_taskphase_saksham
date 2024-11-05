@@ -1,3 +1,9 @@
+'''
+Write a program to print the Fibonacci Sequence till n-values where n
+is user input
+'''
+
+
 def fib(n):
     if n<=1:
         return n
