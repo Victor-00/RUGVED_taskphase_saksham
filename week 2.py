@@ -12,3 +12,7 @@ value_counts = df['city'].value_counts()
 print("Q3) - Total count of matches city wise :-")
 for value, count in value_counts.items():
     print(f"{value}: {count}")
+maxT = df['toss_winner'].value_counts().idxmax()
+print("Q4)- The team with most toss wins is : " + maxT)
+minT = df['toss_winner'].value_counts().idxmin()
+print("Q4) - The team with least toss wins is : " + minT)
